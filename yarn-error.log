@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\mvini\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express typescript ts-node @types/ts-node @types/express
+
+PATH: 
+  C:\Program Files\PostgreSQL\13\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\mvini\anaconda3;C:\Users\mvini\anaconda3\Library\mingw-w64\bin;C:\Users\mvini\anaconda3\Library\usr\bin;C:\Users\mvini\anaconda3\Library\bin;C:\Users\mvini\anaconda3\Scripts;C:\Users\mvini\AppData\Local\Microsoft\WindowsApps;C:\Users\mvini\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.2\bin;;C:\Users\mvini\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types%2fts-node: Not found
+      at Request.params.callback [as _callback] (C:\Users\mvini\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\mvini\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\mvini\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\mvini\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "backendToDoApp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/MVinicius43/backendToDoApp.git",
+    "author": "Marcos Silva (PSV) <marcos.silva@psvsistemas.com.br>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
