@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import { CreateTaskUseCase } from "./createTaskUseCase";
 
-
 class CreateTaskController {
 
     async handle(request: Request, response: Response) {
